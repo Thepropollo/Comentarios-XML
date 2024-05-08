@@ -14,7 +14,7 @@
 	<fecha>2005</fecha>
 </libro>
 <libro>
-	<!--Literatura contemporánea-->
+	<!--Literatura contemporánea<!--Literatura contemporánea-->-->
 	<nombre  paginas="500">Cien años de soledad</nombre>
 	<autor>Gabriel García Márquez</autor>
 	<editorial>Oveja Negra</editorial>
