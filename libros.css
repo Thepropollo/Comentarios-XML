@@ -1,0 +1,38 @@
+libros{
+	background-color: blueviolet;
+	display:block;
+	font-size:18px;
+	width:600px;
+	margin: 0 auto;
+}
+libro{
+	display:block;
+	background-color:lightskyblue;
+	margin:5px;
+	border:2px black solid;	
+}
+nombre{
+	font-size:24px;
+	display:block;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:red;	
+}
+nombre:after{content: ", " attr(paginas) " páginas"; 
+color:orange;
+font-size:18px;
+}
+autor{
+	display:block;
+	margin:5px;
+	color:green;
+	text-decoration:underline;
+}
+autor:before{content:"Autor: ";}
+editorial{
+	display:block;
+	margin:5px;
+	color:green;
+	font-style:italic;
+}
+editorial:before{content:"Editorial: ";}
