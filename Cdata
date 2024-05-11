@@ -1,0 +1,34 @@
+/*=============================================================================================================*/
+/*                             Seccion de Caracteres Bine ejecutada                                            */
+/*=============================================================================================================*/
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Bibliografía del curso de literatura I -->
+<libros>
+<libro>
+	<!--Literatura clásica-->
+	<nombre paginas="600"><![CDATA[El <b>Quijote</b> de la >><i>Mancha</i>]]></nombre>
+	<autor>Miguel de Cervantes</autor>
+	<editorial>Oveja Negra</editorial>
+	<precio>200.00</precio>
+	<fecha>2005</fecha>
+</libro>
+</libros>
+
+/*=============================================================================================================*/
+/*                             Seccion de Caracteres Mal ejecutada                                            */
+/*=============================================================================================================*/
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Bibliografía del curso de literatura I -->
+<libros>
+<libro>
+	<!--Literatura clásica-->
+	<nombre paginas="600"><![CDATA[El <b>Quijote</b> [CDATA[de la]]<i>Mancha</i>]]></nombre>
+	<autor>Miguel de Cervantes</autor>
+	<editorial>Oveja Negra</editorial>
+	<precio>200.00</precio>
+	<fecha>2005</fecha>
+</libro>
+</libros>
