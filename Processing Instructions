@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="css/libros.css"?>
+<!--Bibliografía del curso de literatura I -->
+<libros>
+<libro>
+	<!--Literatura clásica-->
+	<nombre paginas="600">El Quijote de la Mancha</nombre>
+	<autor>Miguel de Cervantes</autor>
+	<editorial>Oveja Negra</editorial>
+	<precio>200.00</precio>
+	<fecha>2005</fecha>
+</libro>
+<libro>
+	<!--Literatura contemporánea-->
+	<nombre  paginas="500">Cien años de soledad</nombre>
+	<autor>Gabriel García Márquez</autor>
+	<editorial>Oveja Negra</editorial>
+	<precio>300.00</precio>
+	<fecha>2000</fecha>
+</libro>
+<libro>
+	<!--Literatura peruana-->
+	<nombre paginas="600">La guerra del fin del mundo</nombre>
+	<autor>Mario Vargas Llosa</autor>
+	<editorial>El barco de vapor</editorial>
+	<precio>350.00</precio>
+	<fecha>2010</fecha>
+</libro>
+</libros>
